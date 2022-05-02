@@ -1,0 +1,234 @@
+nav.bg-light{
+    background-color: #0077C0!important;
+}
+
+.corpo{
+    background-color: #45484b;
+   
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Fira+Code:wght@300 & display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( #0077C0, #45484b);
+}
+.container-cab{
+    display: flex;
+    background-color: rgb(8, 64, 204);
+    padding: 20px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.texto-logo-cab{
+    font-family: 'Fira Code', monospace;    
+    color: whitesmoke;
+    padding: 0px 15px;
+}
+.container-ancoras{
+    display: flex;
+    list-style-type: none;
+}
+li a{
+    padding: 0px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+}
+
+li a:hover{
+    border-radius: 10px;
+    padding: 20px 15px;
+    transition: 0.3s;
+    background-color: #969696;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 2% 0 2%;
+
+}
+
+.img2{
+    height: 200px;
+}
+
+.tecs-baixo{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 0 5% 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #000000!important;
+}
+
+div.card{
+    background-color: #fff;
+    border: #000000 3px solid;
+    border-radius: 7px;
+}
+
+.card-img-top{
+    height: 40%;
+    width: 40%;
+}
+
+.experiencias{
+    height: 50vh;
+}
+
+.d-block{
+    height: 50%;
+}
+
+.footer{
+    background-color: #093366;
+    width: 100%;
+    height: 1000%;
+    color: white;
+    position: relative;
+    display: grid;
+
+
+}
+
+.card1{
+    text-align: center;
+    
+}
+
+.imgfooter{
+    width: 50%;
+}
+
+.youtube{
+
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+
+}
+ 
+.containerimagens{
+    display: flex;
+}
+
+.twitter{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+
+}
+
+
+.redes{
+    font-size: medium;
+    text-align: center;
+}
+
+.cpnj{
+    font-size: medium;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.redessociais{
+    width: 1%;
+}
+
+.faleconosco{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.texto-footer{
+    width: 100;
+    height: 100;
+}
+
+.containerfooter{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+
+}
+
+
+.caixa{
+    background-color: #093366;
+    width: 50%;
+    text-align: center;
+
+}
+
+.botão{
+    width: 35%;
+    color: #FFF;
+    background: transparent;
+
+}
+
+
+.whatsapp{
+    width: 5%;
+}
+
+.novidades{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.caixatexto{
+    text-align: center;
+    width: 200%;
+}
+
+@media (max-width: 770px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient( #1F4287, #36393b);
+    }
+
+    li a:hover{
+        border-radius: 10px;
+        padding: 10px 10px;
+        transition: 0.3s;
+        background-color: #969696;
+    }
+    
+    .container-cab{
+        width: 100%;
+
+    }
+
+    .container-ancoras{
+        flex-direction: column;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #000000!important;
+    }
+
+    .tecs-baixo, .banner{
+        flex-wrap: wrap;
+    }
+
+}

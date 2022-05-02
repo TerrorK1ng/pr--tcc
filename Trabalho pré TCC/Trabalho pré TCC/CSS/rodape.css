@@ -1,0 +1,108 @@
+.footer{
+    background-color: #093366;
+    width: 100%;
+    height: 1000%;
+    color: white;
+    position: relative;
+    display: grid;
+
+
+}
+
+.card1{
+    text-align: center;
+    
+}
+
+.imgfooter{
+    width: 50%;
+}
+
+.youtube{
+
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+
+}
+ 
+.containerimagens{
+    display: flex;
+}
+
+.twitter{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+
+}
+
+
+.redes{
+    font-size: medium;
+    text-align: center;
+}
+
+.cpnj{
+    font-size: medium;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.redessociais{
+    width: 1%;
+}
+
+.faleconosco{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.texto-footer{
+    width: 100;
+    height: 100;
+}
+
+.containerfooter{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+
+}
+
+
+.caixa{
+    background-color: #093366;
+    width: 50%;
+    text-align: center;
+
+}
+
+.botão{
+    width: 35%;
+    color: #FFF;
+    background: transparent;
+
+}
+
+
+.whatsapp{
+    width: 5%;
+}
+
+.novidades{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.caixatexto{
+    text-align: center;
+    width: 200%;
+}

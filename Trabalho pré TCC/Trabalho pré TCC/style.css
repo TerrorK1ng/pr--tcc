@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2? family= Fira+Code:wght@300 & display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #969696;
+}
+.btn-ver-mais{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    background-image: linear-gradient(to left, #0059ff, rgb(0, 55, 194));
+    color: #eee;
+    padding: 15px;
+    border-radius: 6px;
+    align-items: center;
+    margin-top: 15px;
+}
+.container-btn-ver-mais{
+    text-align: center;
+    margin-bottom: 15px;
+}   

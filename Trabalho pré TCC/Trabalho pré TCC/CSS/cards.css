@@ -1,0 +1,68 @@
+button a{
+    color: #FFF;
+    text-decoration: none;
+}
+.preco-produtos{
+    font-family: 'Fira Code',monospace; 
+    color: #0077C0;
+}
+.descricao-produtos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5c5e61;
+}
+.infos-produtos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0077C0;
+}
+.produto-1{
+    background-color: #fff;
+    height: 380px;
+    width: 220px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container-cards-produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-infos-produtos{
+    text-align: center;
+}
+.imagem-frete-gratis{
+
+    margin-bottom: 10px;
+    display: flex;
+
+    justify-content: center;
+}
+.img-frete{
+    height: 30px;
+    width: 30px;
+    padding-right: 12px;
+}
+.btn-carrinho{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    background-image: linear-gradient(to right, #0d62ff, rgb(8, 64, 204));
+    color: #eee;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 3px 0px 0px 10px;
+    align-items: center;
+}
+
+.btn-carrinho:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.img-placa-mae1{
+    padding-top: 10px;
+}
+
+.img-carrinho{
+    padding: 0 5px 0 0;
+}

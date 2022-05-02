@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+.container-cab{
+    display: flex;
+    background-color: rgb(8, 64, 204);
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.texto-logo-cab{
+    font-family: 'Fira Code', monospace;
+    color: whitesmoke;
+    padding: 0px 15px;
+}
+.container-ancoras{
+    display: flex;
+    list-style-type: none;
+    padding: 15px 0;
+}
+li a{
+    padding: 0px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+}
+li a:hover{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 15px;
+    transition: 0.3s;
+    background-color: #969696;
+}

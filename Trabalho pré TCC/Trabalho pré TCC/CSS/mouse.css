@@ -1,0 +1,172 @@
+
+.corpo{
+    background-color: #0077C0;
+    background-image: linear-gradient(#0077C0, #65105225);
+}
+
+.card-img-top{
+    height: 50%;
+    width: 50%;
+}
+
+.imagem{
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.section{
+    border-radius: 10px;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+.container-card1{
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+.cabecalho{
+    border-radius: 10px;
+    background-color:rgb(65, 105, 225);
+    background-image: linear-gradient(#0077C0, #65105225);
+}
+
+
+.footer{
+    background-color: #093366;
+    width: 100%;
+    height: 1000%;
+    color: white;
+    position: relative;
+    display: grid;
+
+
+}
+
+.card1{
+    text-align: center;
+    
+}
+
+.imgfooter{
+    width: 50%;
+}
+
+.youtube{
+
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+
+}
+ 
+.containerimagens{
+    display: flex;
+}
+
+.twitter{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+
+}
+
+
+.redes{
+    font-size: medium;
+    text-align: center;
+}
+
+.cpnj{
+    font-size: medium;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.redessociais{
+    width: 1%;
+}
+
+.faleconosco{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.texto-footer{
+    width: 100;
+    height: 100;
+}
+
+.containerfooter{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+
+}
+
+
+.caixa{
+    background-color: #093366;
+    width: 50%;
+    text-align: center;
+
+}
+
+.botão{
+    width: 35%;
+    color: #FFF;
+    background: transparent;
+
+}
+
+
+.whatsapp{
+    width: 5%;
+}
+
+.novidades{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.caixatexto{
+    text-align: center;
+    width: 200%;
+}
+@media(max-width: 800px){
+
+    .imagem{
+        display: none;
+    }
+
+    .container-card{
+        width: 100%;
+    }
+
+    .container-ancoras{
+        flex-direction: column;
+    }
+
+    .btn-primary{
+        color: #fff;
+        background-color: #007bff;
+        border-bottom: #000000!important;
+    }
+
+    .container-card, .container-card1{
+        flex-wrap: wrap;
+    }
+}
